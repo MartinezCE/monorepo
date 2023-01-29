@@ -1,0 +1,19 @@
+<svg width="22" height="22" xmlns="http://www.w3.org/2000/svg" fill="none">
+ <defs>
+  <clipPath id="clip0_7757_51359">
+   <rect id="svg_1" fill="currentColor" height="22" width="22"/>
+  </clipPath>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <g stroke="null" id="svg_2" clip-path="url(#clip0_7757_51359)">
+   <path stroke="currentColor" id="svg_3" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m11.06107,8.50419l0,4.80843"/>
+   <path stroke="currentColor" id="svg_4" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m13.4653,10.90839l-4.80846,0"/>
+   <path stroke="currentColor" id="svg_5" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m21.47921,10.90839l-3.20569,0"/>
+   <path stroke="currentColor" id="svg_6" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m3.84842,10.90839l-3.2056,0"/>
+   <path stroke="currentColor" id="svg_7" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m19.87643,0.49018l-17.6308,0c-0.8852,0 -1.60281,0.71761 -1.60281,1.60281l0,17.63077c0,0.88523 0.71761,1.60278 1.60281,1.60278l17.6308,0c0.88523,0 1.60278,-0.71756 1.60278,-1.60278l0,-17.63077c0,-0.8852 -0.71756,-1.60281 -1.60278,-1.60281z"/>
+   <path stroke="currentColor" id="svg_8" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m11.06107,0.49018l0,3.2056"/>
+   <path stroke="currentColor" id="svg_9" stroke-linejoin="round" stroke-linecap="round" stroke-width="1.57143" d="m11.06107,18.12097l0,3.20556"/>
+  </g>
+ </g>
+</svg>

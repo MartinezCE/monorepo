@@ -1,0 +1,9 @@
+deploy work-spaces:
+  stage: deploy
+  script:
+    - bash packages/api/work-spaces/scripts/deploy.sh
+  only:
+    changes:
+      - packages/api/work-spaces/**/*
+    refs:
+      - main

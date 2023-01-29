@@ -1,0 +1,32 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/apps/*",
+    "packages/api/*"
+  ],
+  "scripts": {
+    "prepare": "husky install",
+    "prelint": "yarn build:shared",
+    "lint": "turbo run lint --parallel",
+    "build:shared": "turbo run build --filter @wimet/*-shared --parallel",
+    "prebuild": "yarn && yarn lint",
+    "build": "turbo run build:plain --filter !@wimet/*-shared --parallel",
+    "dev": "turbo run dev --parallel",
+    "seed": "turbo run seed --filter @wimet/work-spaces",
+    "test": "NODE_ENV=testing turbo run test --parallel"
+  },
+  "devDependencies": {
+    "husky": "^7.0.4",
+    "turbo": "^1.4.3"
+  },
+  "resolutions": {
+    "typescript": "^4.3.2",
+    "@types/verror": "^1.10.4",
+    "@types/react": "17.0.38"
+  },
+  "dependencies": {
+    "jsonwebtoken": "^8.5.1",
+    "react-qr-code": "^2.0.7"
+  }
+}

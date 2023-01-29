@@ -1,0 +1,1513 @@
+{
+    "id": "Ejs8Uk2C",
+    "type": "quiz",
+    "title": "Cuestionario Leads",
+    "workspace": {
+        "href": "https://api.typeform.com/workspaces/4WaEzP"
+    },
+    "theme": {
+        "href": "https://api.typeform.com/themes/eI4hLRP5"
+    },
+    "settings": {
+        "language": "es",
+        "progress_bar": "proportion",
+        "meta": {
+            "allow_indexing": false
+        },
+        "hide_navigation": false,
+        "is_public": true,
+        "is_trial": false,
+        "show_progress_bar": true,
+        "show_typeform_branding": true,
+        "are_uploads_public": false,
+        "show_time_to_complete": true,
+        "show_number_of_submissions": false,
+        "show_cookie_consent": false,
+        "show_question_number": true,
+        "pro_subdomain_enabled": false,
+        "capabilities": {
+            "e2e_encryption": {
+                "enabled": false,
+                "modifiable": false
+            }
+        }
+    },
+    "thankyou_screens": [
+        {
+            "id": "DefaultTyScreen",
+            "ref": "default_tys",
+            "title": "Gracias por completar este typeform. \n*Crea ahora el tuyo*. ¡Es gratis, fácil y bonito!",
+            "type": "thankyou_screen",
+            "properties": {
+                "show_button": true,
+                "share_icons": false,
+                "button_mode": "default_redirect",
+                "button_text": "Crea un *typeform*"
+            },
+            "attachment": {
+                "type": "image",
+                "href": "https://images.typeform.com/images/2dpnUBBkz2VN"
+            }
+        }
+    ],
+    "welcome_screens": [
+        {
+            "id": "BjqVgkSNkdaS",
+            "ref": "93e03e21-af8b-4e94-a8f3-a5ec3a21929e",
+            "title": "*Queremos saber como te gustaría trabajar.*\n* Es por eso que te realizaremos una serie de preguntas distribuidas en tres secciones*",
+            "properties": {
+                "show_button": true,
+                "button_text": "Comencemos",
+                "description": "1. Dónde trabajas ahora\n2. Cómo te sientes acerca de los diferentes lugares de trabajo\n3. Cómo te gustaría trabajar en el futuro"
+            }
+        }
+    ],
+    "fields": [
+        {
+            "id": "rKCWDBgjzYPW",
+            "title": "Antes de empezar, ¿podemos saber tu *nombre*?",
+            "ref": "01FJHGTS2PQ3JX7ZZH8BA66VF0",
+            "properties": {
+                "description": "Te pedimos tu nombre para que tu empresa pueda entender cómo deseas trabajar específicamente en el futuro.\n"
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "short_text"
+        },
+        {
+            "id": "XoUln2yTP0zE",
+            "title": "¿Y tu dirección de *email laboral*?",
+            "ref": "c888c096-2e7c-488d-b75b-e93ae0fe8286",
+            "properties": {},
+            "validations": {
+                "required": true
+            },
+            "type": "email"
+        },
+        {
+            "id": "n744ZxTpWaQW",
+            "title": "¡Gracias! Ahora comencemos la encuesta.",
+            "ref": "ee8dda7a-06a7-483f-97c9-3e511526aaa2",
+            "properties": {
+                "description": "Te haremos algunas preguntas sobre dónde has estado trabajando durante los últimos meses.",
+                "button_text": "¡Vamos!",
+                "hide_marks": false
+            },
+            "type": "statement"
+        },
+        {
+            "id": "d1e3JH7TNqnp",
+            "title": "En promedio, ¿cuántos días a la semana has trabajado desde la oficina en los últimos 2 meses?",
+            "ref": "46e0fd1a-47ad-4c7f-82c4-de0c336da3c8",
+            "properties": {
+                "description": "CONSEJO: si esto cambia de una semana a otra, una estimación cercana está bien. Si tu empresa actualmente no tiene una oficina, simplemente selecciona \"nunca\".",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "2TffiInxk7Pd",
+                        "ref": "c6ade3f9-8ab5-48e9-a103-06a177414ad3",
+                        "label": "1"
+                    },
+                    {
+                        "id": "wuLO4b0Yo6wm",
+                        "ref": "74284331-c0a3-4715-9398-c2a8a7fd29f1",
+                        "label": "2"
+                    },
+                    {
+                        "id": "mojTvMFKNgsg",
+                        "ref": "d4f19f0f-bbd0-4c82-adad-7d87acd900b0",
+                        "label": "3"
+                    },
+                    {
+                        "id": "MF2RFMyGMKwN",
+                        "ref": "8a820fa9-3538-4794-8d6f-356382c4f397",
+                        "label": "4"
+                    },
+                    {
+                        "id": "pI8HkWQobPmo",
+                        "ref": "36c0433e-fd70-423a-9eda-44d0de5a1e94",
+                        "label": "5"
+                    },
+                    {
+                        "id": "Ku4M4lHk5lAK",
+                        "ref": "973c991d-ae8a-446b-8982-fb0dc93b651f",
+                        "label": "menos de una vez por semana"
+                    },
+                    {
+                        "id": "ya8Eb7jlwWmb",
+                        "ref": "0c404ac6-d66a-4afc-bfd1-15a53b7c7cc6",
+                        "label": "Nunca"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "7KAVOYt6gYeV",
+            "title": "En promedio, ¿cuántos días a la semana has trabajado desde tu casa en los últimos 2 meses?",
+            "ref": "77d54579-2c01-4108-8e79-01f6c27b5e12",
+            "properties": {
+                "description": "CONSEJO: si esto cambia de una semana a otra, una estimación cercana está bien. ",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "SEQrnrDqDtII",
+                        "ref": "b572a403-27c1-4016-87aa-284a05b0a382",
+                        "label": "1"
+                    },
+                    {
+                        "id": "L1OygkPhCTGf",
+                        "ref": "4b6ec8cf-b935-49d9-8566-3b57cd332a1c",
+                        "label": "2"
+                    },
+                    {
+                        "id": "rHmK8KS9jSkW",
+                        "ref": "689c942e-45c5-4b34-831e-c9ef1d87937d",
+                        "label": "3"
+                    },
+                    {
+                        "id": "GLdXbkFsuSkG",
+                        "ref": "e365f44f-ce04-47e3-8317-92019a1d055e",
+                        "label": "4"
+                    },
+                    {
+                        "id": "gkFxv2FVVAIk",
+                        "ref": "455d7516-57fe-4291-a809-cca10617c64b",
+                        "label": "5"
+                    },
+                    {
+                        "id": "6e6pWL9pdWk8",
+                        "ref": "77238966-e197-46e5-bbc8-8e07caa7785a",
+                        "label": "menos de una vez por semana"
+                    },
+                    {
+                        "id": "pZj6t0hiKmOE",
+                        "ref": "0d5024c0-34cf-42e2-a9b0-9d36237ad89c",
+                        "label": "Nunca"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "i1b0AYDhuIUM",
+            "title": "En promedio, ¿cuántos días a la semana has trabajado desde algún lugar que no sea tu casa o la oficina en los últimos 2 meses?",
+            "ref": "57514e13-38ef-453a-9817-103e49764862",
+            "properties": {
+                "description": "Esto podría ser un café, una biblioteca o cualquier otro lugar que no sea la oficina de tu empresa o tu hogar.",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "uOPGmXOQhtnQ",
+                        "ref": "5e522bfb-b247-4abe-95f2-2eb0df73167f",
+                        "label": "1"
+                    },
+                    {
+                        "id": "gjCbPEmjtDpE",
+                        "ref": "8aba0386-97b7-4f44-be8e-35ac116edcc7",
+                        "label": "2"
+                    },
+                    {
+                        "id": "JcmNUHeyrZZq",
+                        "ref": "cc618c9f-f8cc-4ab2-8c9a-0d5d72f6f907",
+                        "label": "3"
+                    },
+                    {
+                        "id": "N9P6q5yEtbeT",
+                        "ref": "1ad4cf12-a5ee-4c2d-8a4c-c77eafe30c96",
+                        "label": "4"
+                    },
+                    {
+                        "id": "6ODPUYhziKT9",
+                        "ref": "0e24ccc6-3abc-406d-8ede-3c88f69c50df",
+                        "label": "5"
+                    },
+                    {
+                        "id": "2jgymgqNuxYP",
+                        "ref": "f1d5c0dd-0e7d-45cb-b5a4-4c3b6fab744c",
+                        "label": "menos de una vez por semana"
+                    },
+                    {
+                        "id": "weP8D3o8aqim",
+                        "ref": "55a4515a-acca-43db-9fd9-02541fad9d8e",
+                        "label": "Nunca"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "DqAiOLsCycx5",
+            "title": "¡Excelente! Ese es el final de las preguntas sobre dónde has estado trabajando recientemente.",
+            "ref": "b2f56006-27b6-4703-9382-bbb87cd8fbc0",
+            "properties": {
+                "description": "En la siguiente sección, profundizaremos en lo que le gusta y lo que no le gusta de trabajar en distintos lugares.",
+                "button_text": "Continuar",
+                "hide_marks": false
+            },
+            "type": "statement"
+        },
+        {
+            "id": "xbbi0FpS4333",
+            "title": "¿Qué es lo que más te gusta de trabajar en la oficina?",
+            "ref": "6e6d4847-697f-4890-a012-518aa26ed7b2",
+            "properties": {
+                "description": "CONSEJO: si tu empresa tiene varias oficinas, piensa en la que más trabajas.",
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "07GHEr6nNsjJ",
+                        "ref": "3adf46b0-ebd3-4eb8-a926-b4c7b468244b",
+                        "label": "Salas de reuniones"
+                    },
+                    {
+                        "id": "8JQ1Y2MfqxXE",
+                        "ref": "8da6524d-45c6-4a4d-aa5d-71b800b6a8f1",
+                        "label": "Phone booths"
+                    },
+                    {
+                        "id": "03shxf7ofAeh",
+                        "ref": "4b2b2e0f-a64b-4a40-9534-8e54f2227365",
+                        "label": "Restaurantes y locales de cercanía"
+                    },
+                    {
+                        "id": "x5uabYnty1Ar",
+                        "ref": "e493da4b-08a8-4f26-b774-a60dcba68b09",
+                        "label": "Comfort"
+                    },
+                    {
+                        "id": "lHejoloiq6y0",
+                        "ref": "41548114-c009-4643-9efe-81f53f648ea1",
+                        "label": "Eventos y charlas"
+                    },
+                    {
+                        "id": "CoSiepY6Qxs1",
+                        "ref": "362397d4-f0c7-42b2-80a3-abde0921a1de",
+                        "label": "Espacios para trabajar de manera concentrada"
+                    },
+                    {
+                        "id": "swJQBAhOzDOZ",
+                        "ref": "41e89396-d3de-4234-86ec-eebe83ecfb07",
+                        "label": "Networking"
+                    },
+                    {
+                        "id": "j9z7bRPdz77S",
+                        "ref": "9c705e10-df97-4a92-925d-c894e6fd0d5e",
+                        "label": "Acceso a terrazas, jardines"
+                    },
+                    {
+                        "id": "blhbYEBsuwLm",
+                        "ref": "cc2f0d4c-8504-43ae-bf85-d2e7a8601a5f",
+                        "label": "No hay nada que me gusta"
+                    },
+                    {
+                        "id": "Ujther5TlVAC",
+                        "ref": "d63b3580-312e-4e7d-bf51-f51b05a969b8",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "39O1sigqv5g2",
+            "title": "Como rara vez o nunca trabajas desde la oficina de tu empresa, ¿hay algo que extrañes cuando trabajas desde casa o en otro lugar? ",
+            "ref": "a3d4c461-1d25-4451-a3db-a59da9d2e09a",
+            "properties": {
+                "description": "CONSEJO: si nunca ha trabajado en la oficina principal de su empresa, seleccione \"No hay nada que extrañe\" de la lista a continuación.",
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "9zrOZSDzEgdn",
+                        "ref": "f2ff46fa-6989-4024-b546-4a9f7c61ff32",
+                        "label": "Salas de reuniones"
+                    },
+                    {
+                        "id": "L6haU6On93AK",
+                        "ref": "3651863f-d7b2-46a0-82c5-8638e6d0a7a3",
+                        "label": "Phone booths"
+                    },
+                    {
+                        "id": "BHqdbxru6eNl",
+                        "ref": "a3191199-6b44-412b-8dce-a3ba26a2ad59",
+                        "label": "Restaurantes y locales de cercanía"
+                    },
+                    {
+                        "id": "3GvkA6LcRKtv",
+                        "ref": "808558b5-733f-4c2f-8166-a2f60ae77e36",
+                        "label": "Confort"
+                    },
+                    {
+                        "id": "tvfqALQjXzid",
+                        "ref": "cffc38b3-eb48-47a5-b00f-41ba75a9651e",
+                        "label": "Eventos y charlas"
+                    },
+                    {
+                        "id": "oWglLMerk3Qg",
+                        "ref": "027f5e43-564e-48ec-8150-d23ae154465e",
+                        "label": "Espacios para trabajar de manera concentrada"
+                    },
+                    {
+                        "id": "uWEifC0ECFcV",
+                        "ref": "ac575424-6533-4a41-936e-28ae4839aeed",
+                        "label": "Networking"
+                    },
+                    {
+                        "id": "xZSZmr0KFa5M",
+                        "ref": "ac69d778-e5a3-4df8-9f8c-48b0da17f01f",
+                        "label": "Acceso a terrazas, jardines"
+                    },
+                    {
+                        "id": "Hy9D9hzt3Z8O",
+                        "ref": "65a9af37-a52d-48dd-a992-d2bcb842a53e",
+                        "label": "No hay nada que extrañe"
+                    },
+                    {
+                        "id": "T7usPAtsDLov",
+                        "ref": "1b2de6a8-be80-49da-9d0f-d93951346c26",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "O4axBrjpgCLp",
+            "title": "¿Qué es lo que menos te gusta, si es que hay algo, de trabajar desde la oficina de tu compañía?  ",
+            "ref": "b6325e60-a372-46bb-a8a9-63624db2f707",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "qBnFyUkFt5Hx",
+                        "ref": "0447b0f2-b2c0-47a2-98a6-57cf4cb25da2",
+                        "label": "El viaje"
+                    },
+                    {
+                        "id": "zr7yvKFobipp",
+                        "ref": "215cec2c-4072-4bb9-8d9c-0dfa2304a26f",
+                        "label": "Falta de productividad"
+                    },
+                    {
+                        "id": "9XMWkrCtVezy",
+                        "ref": "3c1082f4-1273-463c-a6e1-17dadcb161e3",
+                        "label": "Impacto ambiental"
+                    },
+                    {
+                        "id": "1DvZGdpyBoez",
+                        "ref": "b2fd0799-9060-418c-afa7-4e5cc0a16876",
+                        "label": "Impacto financiero"
+                    },
+                    {
+                        "id": "wNctojYsluBV",
+                        "ref": "4f0d2637-936c-46f2-90e1-ac3b0e82d2cf",
+                        "label": "Menos flexibilidad"
+                    },
+                    {
+                        "id": "NkYHlk0FInBa",
+                        "ref": "ce28f078-9a44-4625-b050-a1cdaada45aa",
+                        "label": "Impacto en salud mental"
+                    },
+                    {
+                        "id": "MIEQ4CHvDndF",
+                        "ref": "439c6183-724a-481b-8c9d-ffbeaa209412",
+                        "label": "No hay nada que no me guste"
+                    },
+                    {
+                        "id": "YxKqU6jxvE8j",
+                        "ref": "fcdc10ca-339e-4fe1-8b44-104601210894",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "ADRnQzncsjQn",
+            "title": "Ahora te haremos unas preguntas sobre lo que opinas de trabajar desde casa:",
+            "ref": "9316db06-cf80-47ac-a16d-7c372010f9d7",
+            "properties": {
+                "button_text": "Continuar",
+                "hide_marks": false
+            },
+            "type": "statement"
+        },
+        {
+            "id": "EpmCtQYKVnoX",
+            "title": "¿Qué es lo que más te gusta de trabajar en tu casa?",
+            "ref": "85c5ea28-d74d-4223-b6e4-00a88772da9d",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "E38pkqDJoGyp",
+                        "ref": "a76f1129-319e-46fe-9467-66647de02541",
+                        "label": "No viajar"
+                    },
+                    {
+                        "id": "NCwDRIfCEGdS",
+                        "ref": "5ec4d259-a452-4e98-861b-b07a97fe5634",
+                        "label": "Mayor productividad y concentración"
+                    },
+                    {
+                        "id": "7LvcoX1Xvz8w",
+                        "ref": "68203340-390a-47ab-b8f2-be33fb95c05c",
+                        "label": "Poco impacto ambiental"
+                    },
+                    {
+                        "id": "L8uk3DhgASuV",
+                        "ref": "3ee1c7d2-16a7-4bad-9f64-cff64e8d86ca",
+                        "label": "Impacto financiero"
+                    },
+                    {
+                        "id": "KqbWZpErLULQ",
+                        "ref": "3dff3bb7-b5e7-4650-bf8f-8702f039687f",
+                        "label": "Compartir tiempo con familia y seres queridos"
+                    },
+                    {
+                        "id": "wARkW2DzEzub",
+                        "ref": "e82d6d50-109a-4734-918e-e647215d24b2",
+                        "label": "Más flexibilidad en el cuidado de niños y cuidado personal"
+                    },
+                    {
+                        "id": "Pz1UQ5qWN9NM",
+                        "ref": "9efe7c31-efc2-46a1-ab41-6666c7c472eb",
+                        "label": "Más flexibilidad en la vida personal en general"
+                    },
+                    {
+                        "id": "Kj5D5PiPNKar",
+                        "ref": "824b205e-964b-401c-9411-e24f00e772ee",
+                        "label": "Impacto en salud mental"
+                    },
+                    {
+                        "id": "lY6OVwbCeSXt",
+                        "ref": "86e17e7a-af8b-41a7-96d1-2042ce5dad93",
+                        "label": "Impacto en salud física"
+                    },
+                    {
+                        "id": "COglMIzIOn6K",
+                        "ref": "c098e6b8-b546-4ef7-82e7-44458b928c1a",
+                        "label": "No hay nada que me guste"
+                    },
+                    {
+                        "id": "Uzmnnqj1lekk",
+                        "ref": "07fb3b95-0429-40ae-82c8-4a761eae3c3b",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "1LlOQk6XXKXJ",
+            "title": "¿Qué es lo que menos te gusta de trabajar en tu casa?",
+            "ref": "014bdee1-86b6-48aa-8e1a-22350dcc82c5",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "4EuMO3RgC3Hm",
+                        "ref": "739f6c8d-8148-4b22-a582-61d35e316bc8",
+                        "label": "Falta de interacción social"
+                    },
+                    {
+                        "id": "OEaQbVK9h7rh",
+                        "ref": "028e2a5f-fc7e-45b4-b8d1-8d52ef14be3c",
+                        "label": "Internet y problemas de tecnología"
+                    },
+                    {
+                        "id": "XduaCswdkTd1",
+                        "ref": "185d7dc7-a29e-46b1-baf5-8e40aad4cb82",
+                        "label": "Falta de equipamiento (Monitores, impresoras, etc)"
+                    },
+                    {
+                        "id": "27R1sEEBExKj",
+                        "ref": "1cffac06-e702-4eea-aa25-31f430e05606",
+                        "label": "Ausencia de balance entre vida y trabajo"
+                    },
+                    {
+                        "id": "nZJ0D4SZnUqI",
+                        "ref": "9adf94ea-3704-423e-88b2-4aa1825993ee",
+                        "label": "Distracciones"
+                    },
+                    {
+                        "id": "lIbwvcV2jQrx",
+                        "ref": "4c389a02-3df1-4859-9aa5-0b85d77a76ac",
+                        "label": "Mala comunicación con el equipo"
+                    },
+                    {
+                        "id": "0Xeo36h2Vee3",
+                        "ref": "95b2c062-c561-4267-9ef6-3bb8ac7070b2",
+                        "label": "Impacto en salud mental"
+                    },
+                    {
+                        "id": "tOxUgPzGz5ls",
+                        "ref": "ab3945d4-a9ed-47cc-b671-dac64c69f4a5",
+                        "label": "Impacto en salud física"
+                    },
+                    {
+                        "id": "RJdr6BAgEvHW",
+                        "ref": "02e5b9c5-2714-4b4d-a9b5-65b0fb9fa325",
+                        "label": "No hay nada que no me guste"
+                    },
+                    {
+                        "id": "icPKqgIy1aMg",
+                        "ref": "f7a9e576-ea9b-4c0e-a81d-186eb23672ae",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "Vm6M4m3JZ9bK",
+            "title": "¿Por qué a veces trabajas en lugares que no son ni la oficina ni tu hogar?",
+            "ref": "8daa01fb-0bda-430a-bd4d-45f0c3214fca",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "r4AlQnMHaNrI",
+                        "ref": "e25645d6-97f4-4d2a-b42e-805b86c3c32d",
+                        "label": "Para salir de casa"
+                    },
+                    {
+                        "id": "jeZuFBJ7Cupb",
+                        "ref": "91efa1a8-d89f-445e-ba23-27d115177f91",
+                        "label": "Para estar con mi equipo"
+                    },
+                    {
+                        "id": "zNqE0tfNAkSo",
+                        "ref": "9934a382-6127-49dc-b835-145a381944cc",
+                        "label": "Para reunirme con clientes"
+                    },
+                    {
+                        "id": "eqRvCIR12X89",
+                        "ref": "3387c823-8bab-4fc2-83af-a52a96399656",
+                        "label": "Para acceder a salas de reuniones y otras facilidades"
+                    },
+                    {
+                        "id": "DQr7Gh5tLMmu",
+                        "ref": "bd76cc57-c152-4710-9dfb-35455f3dc4dc",
+                        "label": "Para cambiar de escenario"
+                    },
+                    {
+                        "id": "JS405hPSIarw",
+                        "ref": "1e6f0ec8-38bc-42c2-8cdf-7b45cca393d6",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "4SY7F0HrhTxc",
+            "title": "Teniendo en cuenta todos los espacios en los que trabajas hoy en día, ¿cuán satisfecho estás en general? ",
+            "ref": "a4658b3a-3123-4c85-ac10-3e2afd14b958",
+            "properties": {
+                "description": "0 = Nada satisfecho, quiero cambiar todo\n5 = Está bien, pero cambiaría algunas cosas\n10 = Es perfecto, no cambiaría nada",
+                "start_at_one": false,
+                "steps": 11
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "opinion_scale"
+        },
+        {
+            "id": "NOGlCsgc2pOa",
+            "title": "En esta sección final, analicemos tu escenario de trabajo ideal.",
+            "ref": "05814a8c-2bd0-40c8-8963-477fd4b6a2d6",
+            "properties": {
+                "description": "Esta sección es tu oportunidad de contarnos cuál sería tu escenario ideal de trabajo. Intenta pensar cómo te gustaría trabajar si tu empresa pudiera cambiar las cosas a partir de mañana.",
+                "button_text": "¡Vamos!",
+                "hide_marks": false
+            },
+            "type": "statement"
+        },
+        {
+            "id": "lThy5w3qWc62",
+            "title": "¿Crees que tu compañía debería tener una oficina de algún tipo?",
+            "ref": "fc94b85b-5ecd-47e6-b9e4-e0c4b21de6c7",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "ZTzVVs25ZW4E",
+                        "ref": "5c6fb11d-95c2-4a33-804f-dcb3eec1ca08",
+                        "label": "Si"
+                    },
+                    {
+                        "id": "jnyeIPONrOmv",
+                        "ref": "7c7ecb40-4d8f-4c85-ad3a-69a66695223b",
+                        "label": "No"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "2U54USGPNBRZ",
+            "title": "¿Por qué no?",
+            "ref": "60c180b5-c4ce-4fce-81b7-836f899ed239",
+            "properties": {},
+            "validations": {
+                "required": false
+            },
+            "type": "short_text"
+        },
+        {
+            "id": "LOr8JNBLyRua",
+            "title": "¿Para qué te gustaría una oficina?",
+            "ref": "85284e5f-a548-4fe7-b94f-11fa26464834",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "yV5By9uzbqw4",
+                        "ref": "a8d8326f-df7d-4e70-9fdc-347554a883d6",
+                        "label": "Para llevar a cabo tareas regulares"
+                    },
+                    {
+                        "id": "2AWvIyK1kyoV",
+                        "ref": "a23fbd6a-7534-4df5-9108-674bc7f31882",
+                        "label": "Recibir clientes"
+                    },
+                    {
+                        "id": "OzZ4TA2L5VtP",
+                        "ref": "b2215c8f-4acf-47d4-afd8-25118addaebc",
+                        "label": "Reuniones internas"
+                    },
+                    {
+                        "id": "oqPOASkwXsCn",
+                        "ref": "e38429c2-d22e-4a76-864f-0c6853b170a2",
+                        "label": "Hacer sociales con el equipo"
+                    },
+                    {
+                        "id": "M0hQvWN7edhW",
+                        "ref": "c5ac1013-90b2-4884-8201-5f1c7ba71240",
+                        "label": "Eventos"
+                    },
+                    {
+                        "id": "myTsYcNishlD",
+                        "ref": "50948277-0c08-49f9-ad9b-2886c1c8fb78",
+                        "label": "Cultura"
+                    },
+                    {
+                        "id": "KQVji1qDNRDr",
+                        "ref": "197691bd-452b-40db-b663-19ac1639f1f7",
+                        "label": "Colaboración"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "w0gf0r1Ezkbj",
+            "title": "¿Cuántos días por semana te gustaría trabajar desde la oficina?",
+            "ref": "30254b81-fada-49b4-b18b-03562636685c",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "GZkzUiTfZyKH",
+                        "ref": "48953c50-ef87-4d3a-a531-036769dda648",
+                        "label": "1"
+                    },
+                    {
+                        "id": "j3s2l3yhwZbZ",
+                        "ref": "84a32688-fb37-4ebf-bf3b-36b2b57883c8",
+                        "label": "2"
+                    },
+                    {
+                        "id": "UpwgCviJc5KC",
+                        "ref": "54da2e74-8446-4e43-b345-81618f3476ff",
+                        "label": "3"
+                    },
+                    {
+                        "id": "YzfNyqK8LOv5",
+                        "ref": "01b7f8ea-8861-4dc6-921e-2c6130c45fb1",
+                        "label": "4"
+                    },
+                    {
+                        "id": "0mR6sJvl5rPM",
+                        "ref": "b76c7acb-1dbc-4f62-805d-a45f9f782393",
+                        "label": "5"
+                    },
+                    {
+                        "id": "czCoEedGRHoF",
+                        "ref": "290c056b-2b5a-445b-9006-1541bc80f913",
+                        "label": "menos de una vez por semana"
+                    },
+                    {
+                        "id": "stK1LywxS4M9",
+                        "ref": "d0b2f931-87f4-443b-8aa2-aa845c64a208",
+                        "label": "Solo cuando me necesiten"
+                    },
+                    {
+                        "id": "MqGK9Sx1UrYV",
+                        "ref": "7894043c-c1cd-41c6-952a-bcf2823aaa58",
+                        "label": "Nunca"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "a33FfX04KjXa",
+            "title": "¿Cuáles de todos estos items te gustaría tener en la oficina de tu empresa? ",
+            "ref": "b8128a04-2abd-4171-912f-c4aae9f75b09",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "BTzJcztiOSzE",
+                        "ref": "6c163d72-ab1b-4865-8c0a-608d6c4c9ba6",
+                        "label": "Guardería"
+                    },
+                    {
+                        "id": "08FfGS9rS9vM",
+                        "ref": "4cfe2ccf-f958-4e30-b267-0b68e423d969",
+                        "label": "Lockers"
+                    },
+                    {
+                        "id": "L8R7qOMY5fcF",
+                        "ref": "fd55e524-5890-4d36-aa5e-aed221949ffb",
+                        "label": "Fruta y snacks gratis"
+                    },
+                    {
+                        "id": "qO55uPga8PWZ",
+                        "ref": "d5a7420a-0311-49da-97db-93969b3cc0e4",
+                        "label": "Duchas"
+                    },
+                    {
+                        "id": "dmA1slyUTHBR",
+                        "ref": "820f1497-1392-4986-ad4a-c93cde3d735a",
+                        "label": "Luz natural"
+                    },
+                    {
+                        "id": "pGHOn9YsbkZx",
+                        "ref": "6f50af21-91b0-4090-9bea-68c78f7a5e0f",
+                        "label": "Estacionamiento de bicicletas"
+                    },
+                    {
+                        "id": "1sYNRSY07T7U",
+                        "ref": "2c310e3b-6423-48ab-85f4-d70785cbefa7",
+                        "label": "Gimnasio"
+                    },
+                    {
+                        "id": "YjMtHWtpbE4d",
+                        "ref": "27185497-78ec-481d-8167-a6566e2cfa71",
+                        "label": "Terraza"
+                    },
+                    {
+                        "id": "NRXEbjbiNZW1",
+                        "ref": "b4c2aef9-5a99-486e-bcc5-9a792c277e61",
+                        "label": "Acceso 24hs"
+                    },
+                    {
+                        "id": "aUFnswcsDDYE",
+                        "ref": "4bc0b828-2717-4f48-b045-199a757f9fac",
+                        "label": "Salón para eventos"
+                    },
+                    {
+                        "id": "AeVx4DlOqD02",
+                        "ref": "177f6271-dc62-4a78-9535-45caa948eb83",
+                        "label": "Pet Friendly"
+                    },
+                    {
+                        "id": "XzGJpKcrT1Gi",
+                        "ref": "59bb7136-76c9-4637-8794-7714823ab109",
+                        "label": "Salas de reuniones"
+                    },
+                    {
+                        "id": "s4RAdz2ubGGZ",
+                        "ref": "52c25aa5-0cae-4b24-b9a2-a80e49855feb",
+                        "label": "Cafe"
+                    },
+                    {
+                        "id": "jLUCftHWNt3f",
+                        "ref": "ca2b825e-33d9-4554-8089-f2e03c8c4b37",
+                        "label": "Otros"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "3mNNBiJKBg6q",
+            "title": "¿Te molestaría que tu espacio en la oficina sea compartido con otras empresas?",
+            "ref": "b43d7af0-a5d8-48e3-a34c-d8898d2c2ae9",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "He6FXnKgtGR7",
+                        "ref": "ff09c1e7-2cde-4b4a-aa82-6bbc4e049304",
+                        "label": "Si"
+                    },
+                    {
+                        "id": "jKtqyLaXIKES",
+                        "ref": "ec09ff35-a91f-40fb-bad1-d74fc6a10f0f",
+                        "label": "No"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "1yete9UhnfGC",
+            "title": "¿Te gustaria que tu empresa tenga una oficina part time?",
+            "ref": "6288012a-0f16-45aa-a319-94fcd5272e85",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "VnneGvNb4bW3",
+                        "ref": "03c8a3e9-ac40-4683-bb71-144c321f276d",
+                        "label": "Si"
+                    },
+                    {
+                        "id": "UsQEPmu6jpiS",
+                        "ref": "57155fe5-c884-4539-bdbf-b8accdbc47c9",
+                        "label": "No"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "l6WG70XehSPr",
+            "title": "¿Tendrías algún problema en tener la modalidad \"hot desk\" , en el cual no tengas un escritorio exclusivo?",
+            "ref": "c05e5f78-da7e-44bd-95cd-8e4ed3a78698",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "eoe6V1KuH6FA",
+                        "ref": "6ff2a4b0-1bb7-4c1b-af50-a50f540f5ac8",
+                        "label": "Si"
+                    },
+                    {
+                        "id": "9PmOIpCUp8q7",
+                        "ref": "5eb37961-1c05-4c87-b6b8-04fe7f25eb0d",
+                        "label": "No"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "NOlQlaMhCZ6o",
+            "title": "Idealmente ¿Cuántos días por semana te gustaría trabajar desde casa?",
+            "ref": "d85a8729-0e49-4a16-b4ac-3abafbe8e330",
+            "properties": {
+                "description": "Si desea trabajar de forma remota pero no en casa, le preguntaremos sobre eso en preguntas posteriores.",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "gKHBnlehew5U",
+                        "ref": "a7854176-60fc-498f-8637-7c78787d37eb",
+                        "label": "1"
+                    },
+                    {
+                        "id": "ZX9lbegMh1qQ",
+                        "ref": "ee2f7d44-e0de-4e20-bb08-1a3111902a88",
+                        "label": "2"
+                    },
+                    {
+                        "id": "7HI1XBWS2L46",
+                        "ref": "51c7a454-27c5-4184-81c8-ce23c8e6f193",
+                        "label": "3"
+                    },
+                    {
+                        "id": "2iPrxy5kQFKw",
+                        "ref": "ee207334-d4b3-405e-b0e9-504e00dbc2d2",
+                        "label": "4"
+                    },
+                    {
+                        "id": "Q8FtOHgtqKgz",
+                        "ref": "0f200472-06ed-4a80-aaf9-c25c618c6f77",
+                        "label": "5"
+                    },
+                    {
+                        "id": "XivWeb62AXFb",
+                        "ref": "26f18d5d-53ac-4832-a077-b94eff19ecc4",
+                        "label": "menos de una vez por semana"
+                    },
+                    {
+                        "id": "fGf8CdN8tWxj",
+                        "ref": "17a463b5-bff5-4107-86cb-44e705a6f416",
+                        "label": "Nunca"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "6PwWo0oGYkOg",
+            "title": "¿Crees que podrías continuar trabajando desde casa indefinidamente sin hacer ningún cambio en tu equipamiento y ambiente?",
+            "ref": "6120b325-3bd7-4221-b18e-cc6613c512a1",
+            "properties": {
+                "description": "Ten en cuenta cuestiones de seguridad, bienestar, muebles.",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "BJWZZUv3TWvL",
+                        "ref": "d94d5226-813b-4e23-af7b-ec40d20270a5",
+                        "label": "Si"
+                    },
+                    {
+                        "id": "bFgJOIUvGxsr",
+                        "ref": "f9474dad-1b91-43df-a59e-47d160f90165",
+                        "label": "No"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "6nQNZVzgjQic",
+            "title": "Si tu compañía se hiciera cargo, te gustaría trabajar desde un espacio de cowork que no sea la oficina central?",
+            "ref": "4ba84b41-cb2e-42d7-a906-ffd0394ac630",
+            "properties": {
+                "description": "Ten en cuenta cuestiones de seguridad, bienestar, muebles.",
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "Dru0OuDuTwz7",
+                        "ref": "c956b872-a327-4864-b36e-47df5f8b8ae2",
+                        "label": "Si"
+                    },
+                    {
+                        "id": "6DlMLiDiEggA",
+                        "ref": "53ee3626-822f-449d-b066-98c1bb462318",
+                        "label": "No"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "hHjFwAw65iEE",
+            "title": "¿Cuántos días por semana te gustaría trabajar desde algún lugar que no sea ni la oficina ni tu casa?",
+            "ref": "778f2bf0-75a1-404b-bb33-9cb5d35d6b39",
+            "properties": {
+                "randomize": false,
+                "allow_multiple_selection": false,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "KwGIsDRp3bFe",
+                        "ref": "b3034f16-79a2-4cba-af61-e75e992df01d",
+                        "label": "1"
+                    },
+                    {
+                        "id": "Nao4HvOP2tDc",
+                        "ref": "0d6ddf5a-d05c-4822-b032-f636ec84bdbe",
+                        "label": "2"
+                    },
+                    {
+                        "id": "uXixS29lEshR",
+                        "ref": "043ad009-89e5-473d-b9ff-85d754c3bbcc",
+                        "label": "3"
+                    },
+                    {
+                        "id": "DqTuee8Bww5F",
+                        "ref": "e74c7533-dcb0-433a-8bdb-12fa57d278c3",
+                        "label": "4"
+                    },
+                    {
+                        "id": "eZJ98FmAgcSz",
+                        "ref": "8eb44357-81c6-4fc1-87e1-45d903c60f2d",
+                        "label": "5"
+                    },
+                    {
+                        "id": "U3p20m8oFN19",
+                        "ref": "9f811b14-5124-4c07-99c1-47a371cb88f9",
+                        "label": "menos de una vez por semana"
+                    },
+                    {
+                        "id": "dgbZtEucCJd9",
+                        "ref": "938c4cd1-3db6-4bdd-b16f-b892f6d91cd5",
+                        "label": "Nunca"
+                    }
+                ]
+            },
+            "validations": {
+                "required": false
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "IFtQrh11efoO",
+            "title": "¿Dónde te gustaría que fuera este espacio de cowork?",
+            "ref": "8deb5551-8c88-4832-bcbb-b57532b11137",
+            "properties": {
+                "description": "Ten en cuenta cuestiones de seguridad, bienestar, muebles.",
+                "randomize": false,
+                "allow_multiple_selection": true,
+                "allow_other_choice": false,
+                "vertical_alignment": true,
+                "choices": [
+                    {
+                        "id": "VNkVsQ1tMp6K",
+                        "ref": "8fe348b5-d0f1-4184-93f2-b8321ef51974",
+                        "label": "Cerca de casa"
+                    },
+                    {
+                        "id": "w81qKfDliQwc",
+                        "ref": "13dac071-5a2f-4cd2-89d6-22c003124ed8",
+                        "label": "Cerca de donde necesite estar determinado día"
+                    },
+                    {
+                        "id": "lu68fb5prVR6",
+                        "ref": "1ddb94c1-e5ea-426e-9e63-a6486528f918",
+                        "label": "En cualquier lugar de fácil acceso"
+                    },
+                    {
+                        "id": "GYesWnuvovAb",
+                        "ref": "8d7c4bb0-f94b-44b0-85e5-8960fb900e2b",
+                        "label": "Otro"
+                    }
+                ]
+            },
+            "validations": {
+                "required": true
+            },
+            "type": "multiple_choice"
+        },
+        {
+            "id": "uRBLHBOIqHwX",
+            "title": "Por último, ¿hay algo más que te gustaría compartirnos sobre tu escenario ideal de trabajo?",
+            "ref": "8be10bd1-c25b-4869-a324-c523242e8caa",
+            "properties": {},
+            "validations": {
+                "required": true
+            },
+            "type": "short_text"
+        }
+    ],
+    "logic": [
+        {
+            "type": "field",
+            "ref": "b6325e60-a372-46bb-a8a9-63624db2f707",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "8daa01fb-0bda-430a-bd4d-45f0c3214fca"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "77d54579-2c01-4108-8e79-01f6c27b5e12"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "0d5024c0-34cf-42e2-a9b0-9d36237ad89c"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "014bdee1-86b6-48aa-8e1a-22350dcc82c5",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "a4658b3a-3123-4c85-ac10-3e2afd14b958"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "57514e13-38ef-453a-9817-103e49764862"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "55a4515a-acca-43db-9fd9-02541fad9d8e"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "fc94b85b-5ecd-47e6-b9e4-e0c4b21de6c7",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "60c180b5-c4ce-4fce-81b7-836f899ed239"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "fc94b85b-5ecd-47e6-b9e4-e0c4b21de6c7"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "7c7ecb40-4d8f-4c85-ad3a-69a66695223b"
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "85284e5f-a548-4fe7-b94f-11fa26464834"
+                        }
+                    },
+                    "condition": {
+                        "op": "is",
+                        "vars": [
+                            {
+                                "type": "field",
+                                "value": "fc94b85b-5ecd-47e6-b9e4-e0c4b21de6c7"
+                            },
+                            {
+                                "type": "choice",
+                                "value": "5c6fb11d-95c2-4a33-804f-dcb3eec1ca08"
+                            }
+                        ]
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "b2f56006-27b6-4703-9382-bbb87cd8fbc0",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "a3d4c461-1d25-4451-a3db-a59da9d2e09a"
+                        }
+                    },
+                    "condition": {
+                        "op": "or",
+                        "vars": [
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "46e0fd1a-47ad-4c7f-82c4-de0c336da3c8"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "0c404ac6-d66a-4afc-bfd1-15a53b7c7cc6"
+                                    }
+                                ]
+                            },
+                            {
+                                "op": "is",
+                                "vars": [
+                                    {
+                                        "type": "field",
+                                        "value": "46e0fd1a-47ad-4c7f-82c4-de0c336da3c8"
+                                    },
+                                    {
+                                        "type": "choice",
+                                        "value": "973c991d-ae8a-446b-8982-fb0dc93b651f"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                },
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "6e6d4847-697f-4890-a012-518aa26ed7b2"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "6e6d4847-697f-4890-a012-518aa26ed7b2",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "b6325e60-a372-46bb-a8a9-63624db2f707"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "01FJHGTS2PQ3JX7ZZH8BA66VF0",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "c888c096-2e7c-488d-b75b-e93ae0fe8286"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "c888c096-2e7c-488d-b75b-e93ae0fe8286",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "ee8dda7a-06a7-483f-97c9-3e511526aaa2"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "ee8dda7a-06a7-483f-97c9-3e511526aaa2",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "46e0fd1a-47ad-4c7f-82c4-de0c336da3c8"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "46e0fd1a-47ad-4c7f-82c4-de0c336da3c8",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "77d54579-2c01-4108-8e79-01f6c27b5e12"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "77d54579-2c01-4108-8e79-01f6c27b5e12",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "57514e13-38ef-453a-9817-103e49764862"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        },
+        {
+            "type": "field",
+            "ref": "57514e13-38ef-453a-9817-103e49764862",
+            "actions": [
+                {
+                    "action": "jump",
+                    "details": {
+                        "to": {
+                            "type": "field",
+                            "value": "b2f56006-27b6-4703-9382-bbb87cd8fbc0"
+                        }
+                    },
+                    "condition": {
+                        "op": "always",
+                        "vars": []
+                    }
+                }
+            ]
+        }
+    ],
+    "created_at": "2022-07-15T19:55:47+00:00",
+    "last_updated_at": "2022-08-10T15:03:02+00:00",
+    "published_at": "2022-07-18T12:48:26+00:00",
+    "_links": {
+        "display": "https://form.typeform.com/to/Ejs8Uk2C"
+    }
+}

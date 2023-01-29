@@ -1,0 +1,7 @@
+scripts
+seeders
+.eslintrc.js
+dist
+migrations
+jest.config.ts
+tempMigrations

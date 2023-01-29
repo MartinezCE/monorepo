@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "outDir": "lib",
+    "module": "esnext",
+    "target": "esnext",
+    "declaration": true,
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true
+  },
+  "include": ["src", "*.d.ts", ".eslintrc.js", "../clients/react-table.d.ts"],
+  "exclude": ["node_modules", "lib"]
+}

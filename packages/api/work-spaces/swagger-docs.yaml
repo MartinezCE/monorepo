@@ -1,0 +1,852 @@
+components:
+  schemas:
+    Seat:
+      type: object
+      properties:
+        name:
+          type: string
+        isAvailable:
+          type: boolean
+        geometry:
+          type: object
+          properties:
+            type:
+              type: string
+            coordinates:
+              type: array
+              items:
+                type: integer
+        amenities:
+          type: array
+          items:
+            type: integer
+    SeatArray:
+      type: array
+      items:
+        type: object
+        properties:
+          name:
+            type: string
+          isAvailable:
+            type: boolean
+          geometry:
+            type: object
+            properties:
+              type:
+                type: string
+              coordinates:
+                type: array
+                items:
+                  type: integer
+          amenities:
+            type: array
+            items:
+              type: integer
+    Name:
+      type: object
+      properties:
+        name:
+          type: string
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        firstName:
+          type: string
+        lastName:
+          type: string
+        password:
+          type: string
+        phoneNumber:
+          type: string
+        email:
+          type: string
+        companyRole:
+          type: string
+        isWPMEnabled:
+          type: boolean
+        userTypeId:
+          type: integer
+        userType:
+          type: object
+          required:
+            - value
+          properties:
+            id:
+              type: integer
+            value:
+              type: string
+            createdAt:
+              type: string
+            updatedAt:
+              type: string
+        userRoleId:
+          type: integer
+        userRole:
+          type: object
+          required:
+            - value
+          properties:
+            id:
+              type: integer
+            value:
+              type: string
+            createdAt:
+              type: string
+            updatedAt:
+              type: string
+        authProviders:
+          type: object
+          properties:
+            google:
+              type: object
+              properties:
+                profileId:
+                  type: string
+        createdAt:
+          type: string
+        updatedAt:
+          type: string
+    UserArray:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: integer
+          firstName:
+            type: string
+          lastName:
+            type: string
+          password:
+            type: string
+          phoneNumber:
+            type: string
+          email:
+            type: string
+          companyRole:
+            type: string
+          isWPMEnabled:
+            type: boolean
+          userTypeId:
+            type: integer
+          userType:
+            type: object
+            required:
+              - value
+            properties:
+              id:
+                type: integer
+              value:
+                type: string
+              createdAt:
+                type: string
+              updatedAt:
+                type: string
+          userRoleId:
+            type: integer
+          userRole:
+            type: object
+            required:
+              - value
+            properties:
+              id:
+                type: integer
+              value:
+                type: string
+              createdAt:
+                type: string
+              updatedAt:
+                type: string
+          authProviders:
+            type: object
+            properties:
+              google:
+                type: object
+                properties:
+                  profileId:
+                    type: string
+          createdAt:
+            type: string
+          updatedAt:
+            type: string
+    Number:
+      type: integer
+    SignInBody:
+      type: object
+      properties:
+        email:
+          type: string
+        password:
+          type: string
+      required:
+        - email
+        - password
+    PartnersSignUpBody:
+      type: object
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        password:
+          type: string
+        phoneNumber:
+          type: string
+        email:
+          type: string
+        company:
+          type: object
+          properties:
+            name:
+              type: string
+            stateId:
+              type: integer
+            companyTypeId:
+              type: integer
+    ClientsSignUpBody:
+      type: object
+      properties:
+        firstName:
+          type: string
+        lastName:
+          type: string
+        password:
+          type: string
+        phoneNumber:
+          type: string
+        email:
+          type: string
+        token:
+          type: string
+        companyRole:
+          type: string
+        company:
+          type: object
+          properties:
+            name:
+              type: string
+            stateId:
+              type: integer
+            address:
+              type: string
+            zipCode:
+              type: string
+            businessName:
+              type: string
+            taxNumber:
+              type: string
+            peopleAmount:
+              type: integer
+            websiteUrl:
+              type: string
+    PutBlueprintSeats:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: integer
+          blueprintId:
+            type: integer
+          geometry:
+            type: object
+          isAvailable:
+            type: boolean
+          name:
+            type: string
+          amenities:
+            type: array
+            items:
+              type: number
+    PostClientInvitation:
+      type: object
+      properties:
+        companyId:
+          type: integer
+        emails:
+          type: array
+          items:
+            type: object
+            properties:
+              email:
+                type: string
+              firstName:
+                type: string
+              lastName:
+                type: string
+            required:
+              - email
+    ClientInvitationResponse:
+      type: object
+      properties:
+        invitations:
+          type: array
+          items:
+            type: object
+            properties:
+              companyId:
+                type: integer
+              emails:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    email:
+                      type: string
+                    firstName:
+                      type: string
+                    lastName:
+                      type: string
+                  required:
+                    - email
+    BlueprintArray:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: integer
+          floorId:
+            type: integer
+          status:
+            type: string
+          name:
+            type: string
+          key:
+            type: string
+          mimetype:
+            type: string
+          url:
+            type: string
+    CollaboratorsByCompany:
+      type: array
+      items:
+        type: object
+        properties:
+          isRegistered:
+            type: boolean
+          firstName:
+            type: string
+          lastName:
+            type: string
+          email:
+            type: string
+          roleId:
+            type: integer
+          value:
+            type: string
+    Company:
+      type: object
+      properties:
+        id:
+          type: integer
+        stateId:
+          type: integer
+        companyTypeId:
+          type: integer
+        name:
+          type: string
+        address:
+          type: string
+        zipCode:
+          type: string
+        businessName:
+          type: string
+        taxNumber:
+          type: string
+        peopleAmount:
+          type: integer
+        websiteUrl:
+          type: string
+        feePercentage:
+          type: object
+          properties:
+            value:
+              type: number
+        avatarUrl:
+          type: string
+        avatarKey:
+    ClientLocationDTO:
+      type: object
+      properties:
+        id:
+          type: integer
+        companyId:
+          type: integer
+        description:
+          type: string
+        address:
+          type: string
+        streetName:
+          type: string
+        streetNumber:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        country:
+          type: string
+        postalCode:
+          type: string
+        accessCode:
+          type: string
+        comments:
+          type: string
+        tourUrl:
+          type: string
+        latitude:
+          type: string
+        longitude:
+          type: string
+        currencyId:
+          type: integer
+        currency:
+          type: object
+          properties:
+            id:
+              type: integer
+            value:
+              type: string
+            credit:
+              type: object
+              properties:
+                id:
+                  type: integer
+                value:
+                  type: number
+                currencyId:
+                  type: integer
+                createdAt:
+                  type: string
+                updatedAt:
+                  type: string
+            createdAt:
+              type: string
+            updatedAt:
+              type: string
+        company:
+          type: object
+          properties:
+            id:
+              type: integer
+            stateId:
+              type: integer
+            companyTypeId:
+              type: integer
+            name:
+              type: string
+            address:
+              type: string
+            zipCode:
+              type: string
+            businessName:
+              type: string
+            taxNumber:
+              type: string
+            peopleAmount:
+              type: integer
+            websiteUrl:
+              type: string
+            feePercentage:
+              type: object
+              properties:
+                value:
+                  type: number
+        stateId:
+          type: integer
+        status:
+          type: string
+        name:
+          type: string
+        floors:
+          type: array
+          items:
+            type: object
+            properties:
+              id:
+                type: integer
+              locationId:
+                type: integer
+              number:
+                type: number
+              blueprints:
+                type: array
+                items:
+                  type: object
+                  properties:
+                    id:
+                      type: integer
+                    floorId:
+                      type: integer
+                    status:
+                      type: string
+                    name:
+                      type: string
+                    key:
+                      type: string
+                    mimetype:
+                      type: string
+                    url:
+                      type: string
+                    seats:
+                      type: array
+                      items:
+                        type: object
+                        properties:
+                          id:
+                            type: integer
+                          name:
+                            type: string
+                          isAvailable:
+                            type: boolean
+                          blueprintId:
+                            type: integer
+                          geometry:
+                            type: object
+                            properties:
+                              type:
+                                type: string
+                              coordinates:
+                                type: array
+                                items:
+                                  type: integer
+                          amenities:
+                            type: array
+                            items:
+                              type: number
+    Location:
+      type: object
+      properties:
+        id:
+          type: integer
+        companyId:
+          type: integer
+        description:
+          type: string
+        address:
+          type: string
+        streetName:
+          type: string
+        streetNumber:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        country:
+          type: string
+        postalCode:
+          type: string
+        accessCode:
+          type: string
+        comments:
+          type: string
+        tourUrl:
+          type: string
+        latitude:
+          type: string
+        longitude:
+          type: string
+        currencyId:
+          type: integer
+        currency:
+          type: object
+          properties:
+            id:
+              type: integer
+            value:
+              type: string
+            credit:
+              type: object
+              properties:
+                id:
+                  type: integer
+                value:
+                  type: number
+                currencyId:
+                  type: integer
+                createdAt:
+                  type: string
+                updatedAt:
+                  type: string
+            createdAt:
+              type: string
+            updatedAt:
+              type: string
+        company:
+          type: object
+          properties:
+            id:
+              type: integer
+            stateId:
+              type: integer
+            companyTypeId:
+              type: integer
+            name:
+              type: string
+            address:
+              type: string
+            zipCode:
+              type: string
+            businessName:
+              type: string
+            taxNumber:
+              type: string
+            peopleAmount:
+              type: integer
+            websiteUrl:
+              type: string
+            feePercentage:
+              type: object
+              properties:
+                value:
+                  type: number
+        stateId:
+          type: integer
+        status:
+          type: string
+        name:
+          type: string
+    LocationArray:
+      type: array
+      items:
+        type: object
+        properties:
+          id:
+            type: integer
+          companyId:
+            type: integer
+          description:
+            type: string
+          address:
+            type: string
+          streetName:
+            type: string
+          streetNumber:
+            type: string
+          city:
+            type: string
+          state:
+            type: string
+          country:
+            type: string
+          postalCode:
+            type: string
+          accessCode:
+            type: string
+          comments:
+            type: string
+          tourUrl:
+            type: string
+          latitude:
+            type: string
+          longitude:
+            type: string
+          currencyId:
+            type: integer
+          currency:
+            type: object
+            properties:
+              id:
+                type: integer
+              value:
+                type: string
+              credit:
+                type: object
+                properties:
+                  id:
+                    type: integer
+                  value:
+                    type: number
+                  currencyId:
+                    type: integer
+                  createdAt:
+                    type: string
+                  updatedAt:
+                    type: string
+              createdAt:
+                type: string
+              updatedAt:
+                type: string
+          company:
+            type: object
+            properties:
+              id:
+                type: integer
+              stateId:
+                type: integer
+              companyTypeId:
+                type: integer
+              name:
+                type: string
+              address:
+                type: string
+              zipCode:
+                type: string
+              businessName:
+                type: string
+              taxNumber:
+                type: string
+              peopleAmount:
+                type: integer
+              websiteUrl:
+                type: string
+              feePercentage:
+                type: object
+                properties:
+                  value:
+                    type: number
+          stateId:
+            type: integer
+          status:
+            type: string
+          name:
+            type: string
+    LocationDto:
+      type: object
+      properties:
+        id:
+          type: integer
+        companyId:
+          type: integer
+        description:
+          type: string
+        address:
+          type: string
+        streetName:
+          type: string
+        streetNumber:
+          type: string
+        city:
+          type: string
+        state:
+          type: string
+        country:
+          type: string
+        postalCode:
+          type: string
+        accessCode:
+          type: string
+        comments:
+          type: string
+        tourUrl:
+          type: string
+        latitude:
+          type: string
+        longitude:
+          type: string
+        currencyId:
+          type: integer
+        currency:
+          type: object
+          properties:
+            id:
+              type: integer
+            value:
+              type: string
+            credit:
+              type: object
+              properties:
+                id:
+                  type: integer
+                value:
+                  type: number
+                currencyId:
+                  type: integer
+                createdAt:
+                  type: string
+                updatedAt:
+                  type: string
+            createdAt:
+              type: string
+            updatedAt:
+              type: string
+        company:
+          type: object
+          properties:
+            id:
+              type: integer
+            stateId:
+              type: integer
+            companyTypeId:
+              type: integer
+            name:
+              type: string
+            address:
+              type: string
+            zipCode:
+              type: string
+            businessName:
+              type: string
+            taxNumber:
+              type: string
+            peopleAmount:
+              type: integer
+            websiteUrl:
+              type: string
+            feePercentage:
+              type: object
+              properties:
+                value:
+                  type: number
+        stateId:
+          type: integer
+        status:
+          type: string
+        name:
+          type: string
+        locationFiles:
+          type: array
+          items:
+            type: object
+            properties:
+              locationId:
+                type: integer
+        amenities:
+          type: array
+          items:
+            type: number
+        spaces:
+          type: array
+          items:
+            type: object
+            properties:
+              spaceTypeId:
+                type: integer
+              count:
+                type: integer
+              name:
+                type: string
+    Amenity:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        isDefault:
+          type: boolean
+        type:
+          type: string
+        fileName:
+          type: string
+        createdAt:
+          type: string
+        updatedAt:
+          type: string
+    Team:
+      type: object
+      properties:
+        name:
+          type: string
+    TeamPlan:
+      type: object
+      properties:
+        credits:
+          type: string
+        paymentType:
+          type: string
+
